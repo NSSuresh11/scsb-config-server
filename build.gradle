@@ -30,7 +30,12 @@ dependencies {
 	testImplementation 'org.projectlombok:lombok:1.18.46'
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.46'
 	implementation 'com.mysql:mysql-connector-j:9.1.0'
-    implementation 'org.json:json:20250517'
+    implementation 'org.json:json:20260814'
+    implementation('org.apache.tomcat.embed:tomcat-embed-core:11.0.25')
+    implementation('org.apache.tomcat.embed:tomcat-embed-el:11.0.25')
+    implementation('org.apache.tomcat.embed:tomcat-embed-websocket:11.0.25')
+    implementation('org.apache.tomcat:tomcat-annotations-api:11.0.25')
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test:4.0.7'
 
 }
